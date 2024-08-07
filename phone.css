@@ -1,48 +1,59 @@
-@media screen and (max-width: 320px){ 
-    #service{
+@media screen and (max-width: 800px) {
+    #service {
         flex-direction: column;
-        width: 390px;}
-        .box{
-            padding: 0px;
-            width: 340px;
-        }
-        .our{display: block;
-            margin-left: 70px;
-        }
-        .Home{
-            width:362px;
-        } 
-        .par{
-            margin-left: 68px;
+        width: max-content;
+    }
+
+    .box {
+        padding: 0px;
+        width: 340px;
+    }
+
+    .our {
+        display: block;
+        margin-left: 70px;
+    }
+
+    .Home {
+        width: 125%;
+    }
+
+    .par {
+        margin-left: 68px;
         margin-right: 58px;
-      }
-        .h-primary{
-            margin-left: 69px;
-            margin-right: 69px;
-        }
-            #navbar{
-                width: 362px;
-            flex-direction: column;
-            height: 86px;
-        }
-            ul{
-            margin: auto;
-        }
-        .mobile{
-            margin-top: 98px;
-            margin-bottom: -75px;}
+    }
 
-            .logo{justify-content: center;
-                display: flex;
-            margin-bottom: -80px;}
-        
-        .img{
-            height: 119px;
-        }
-        #contact{
-            margin-left: 63px;
-        }
+    .h-primary {
+        margin-left: 69px;
+        margin-right: 69px;
+    }
+
+    #navbar {
+        width: 400px;
+        flex-direction: column;
+        height: 86px;
+    }
+
+    ul {
+        margin: auto;
+    }
+
+    .mobile {
+        margin-top: 98px;
+        margin-bottom: -75px;
+    }
+
+    #logo {
+        justify-content: center;
+        display: flex;
+        margin-bottom: -55px;
+    }
+
+    .img {
+        height: 119px;
+    }
+
+    #contact {
+        margin-left: 63px;
+    }
 }
-
-
-     
