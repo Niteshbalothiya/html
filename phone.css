@@ -19,7 +19,7 @@
     }
 
     .par {
-        w-90vw
+        width: -90vw;
     }
 
     .h-primary {
