@@ -193,7 +193,7 @@ background-size: cover;}
                 margin-left: 70px;
             }
             .Home{
-                width:562px;
+                width:362px;
             } 
             .par{
                 margin-left: 68px;
@@ -204,7 +204,7 @@ background-size: cover;}
                 margin-right: 69px;
             }
                 #navbar{
-                    width: 562px;
+                    width: 362px;
                 flex-direction: column;
                 height: 86px;
             }
