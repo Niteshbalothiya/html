@@ -19,17 +19,15 @@
     }
 
     .par {
-        margin-left: 68px;
-        margin-right: 58px;
+        w-90vw
     }
 
     .h-primary {
-        margin-left: 69px;
-        margin-right: 69px;
+        width: 90vw;
     }
 
     #navbar {
-        width: 400px;
+        width: 364px;
         flex-direction: column;
         height: 86px;
     }
