@@ -1,4 +1,4 @@
-@media screen and (max-width: 340px){ 
+@media screen and (max-width: 320px){ 
     #service{
         flex-direction: column;
         width: 390px;}
