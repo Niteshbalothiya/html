@@ -1,0 +1,231 @@
+/*css rest*/
+*{margin: 0;
+padding: 0;
+}
+/*css variable*/
+/*navigation bar*/
+#navbar{
+    display: flex;
+    height: 70px;
+   background-color: #AFAFAF;
+     width: 100%;
+}
+.us{display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+width: 500px;
+margin-top: 120px;
+border-radius: 6px;
+border: 2px solid black;
+}
+.for{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#contact  { 
+    width: 500px;
+    background-image: url(./image/pexels-hngstrm-1939485.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 400px;
+}
+.pri.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+flex-direction: column;
+}
+.submit{ width: 10px;
+    display: flex;
+    justify-content: center;
+    background-color:grey;
+}    
+
+#logo{ height: 70px;
+margin: -56px 9px;
+}
+.img{   height: 140px;
+     width: 120px;
+     margin: 25px 29px;
+}
+ul{
+    display: flex;
+    align-items: center;
+}
+li{
+   /* color: brown;*/
+   list-style: none;
+   font-size: 1.0rem;
+}
+.pad {
+    color: white;
+    display: block;
+padding: 3px 22px;
+border-radius: 20px;
+text-decoration: none;}
+.pad:hover{
+    color:black;
+    background-color: white;}
+/* home section*/
+.class{height: 400px;}
+.Home{ height: 400px;
+    width: 1448px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("./image/back2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.h-primary
+ {
+    font-size: 2.5rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+}  
+
+.par{ 
+    font-size: 1.5em;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.button {height: 30px;
+    width: 100px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 6px 10px;
+border: 2px solid white;
+background-color: brown;
+color: white;
+margin-inline: auto;
+margin-top: 10px;
+
+}
+.h-secondary{    font-size: 1.8rem;
+    padding: 12px;
+} 
+#service{
+    margin: 10px;
+    display: flex;
+
+}
+.our{display: flex;
+justify-content: center;
+font-size: 2.6rem;
+}
+.box{
+    border: 2px solid rgb(141, 140, 140);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    padding: 40px;
+    margin: 4px;
+    background-color: rgb(245, 238, 238);
+    font-size: 1.0rem;
+}
+
+.form-group{
+    width: 100%;
+    display: flex;
+    gap: 100px;
+}
+
+.form-class{height: 300px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 12px;
+}
+.lab{
+margin-left: 69px;
+gap: 10px
+;}
+.label-phone{
+    margin-left: 10px;
+}
+.label-message{
+    margin-left: 49px;
+}
+.label-alter{
+    margin-left: -3px;
+}
+.from-grop{ display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body{background-color: rgb(231, 225, 225);
+background-image: url(./image/pexels-hngstrm-1939485.jpg);
+background-repeat: no-repeat;
+background-size: cover;}
+#About { 
+    background-image: url(./image/assets-cached.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Aboutus-pre{
+    border: 2px solid black;
+    font-family: Arial, Helvetica, sans-serif;}
+    .mobile{margin-top: 23px;}
+
+    @media only screen and (max-width: 640px){ 
+        #service{
+            flex-direction: column;
+            width: 390px;}
+            .box{
+                padding: 0px;
+                width: 340px;
+            }
+            .our{display: block;
+                margin-left: 70px;
+            }
+            .Home{
+                width:362px;
+            } 
+            .par{
+                margin-left: 68px;
+            margin-right: 72px;
+        }
+            .h-primary{
+                margin-left: 69px;
+                margin-right: 69px;
+            }
+                #navbar{
+                    width: 362px;
+                flex-direction: column;
+                height: 86px;
+            }
+                ul{
+                margin: auto;
+            }
+            .mobile{
+                margin-top: 110px;
+                margin-bottom: -75px;}
+
+            
+            .logo{justify-content: center;
+            display: flex;
+        margin-bottom: -80px;}
+            .img{
+                height: 119px;
+            }
+            #contact{
+                margin-left: 63px;
+            }
+    }
+
+
+         
