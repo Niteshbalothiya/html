@@ -1,4 +1,4 @@
-@media only screen and (max-width: 640px){ 
+@media screen and (max-width: 740px){ 
     #service{
         flex-direction: column;
         width: 390px;}
@@ -15,7 +15,7 @@
         .par{
             margin-left: 68px;
         margin-right: 58px;
-    }
+      }
         .h-primary{
             margin-left: 69px;
             margin-right: 69px;
